@@ -87,8 +87,8 @@ apt-get install ${kernel_headers_latest_version} ${kernel_image_latest_version}
 apt-get -y install dkms build-essential make gcc libelf-dev
 
 
-tar vjxf $PWD/r8152.53.56-2.14.0.bz2
-cd r8152-2.14.0
+tar vjxf $PWD/r8152.53.56-2.15.0.bz2
+cd r8152-2.15.0
 
 make
 depmod -a
