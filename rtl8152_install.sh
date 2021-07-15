@@ -93,6 +93,7 @@ cd r8152-2.15.0
 make
 depmod -a
 update-initramfs -u
+echo 'r8152' >> /etc/modules
 
 if [ $? == 0 ]; then
 	echo ''
