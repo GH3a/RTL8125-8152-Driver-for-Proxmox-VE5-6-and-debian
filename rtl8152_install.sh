@@ -87,7 +87,7 @@ apt-get install ${kernel_headers_latest_version} ${kernel_image_latest_version}
 apt-get -y install dkms build-essential make gcc libelf-dev
 
 #https://www.realtek.com/zh/component/zoo/category/network-interface-controllers-10-100-1000m-gigabit-ethernet-usb-3-0-software
-tar vjxf $PWD/r8152.53.56-2.15.0.bz2
+tar vjxf $PWD/r8152.53.56-2.15.0.tar.bz2
 cd r8152-2.15.0
 
 make
